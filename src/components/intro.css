@@ -3,6 +3,10 @@
     height: 100vh;
 }
 
+.i-desc {
+    font-size: medium
+}
+
 .i-left {
     flex: 1;
     display: flex;

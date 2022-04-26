@@ -10,8 +10,7 @@ const Toggle = () => {
     }
   return (
     <div className="t">
-<img src="" alt="moon logo"  className="t-icon"/>
-<img src="" alt="sun logo"  className="t-icon"/>
+
 <div className="t-button" onClick={handleClick} style= {{left: theme.state.darkMode ? 0 :25 }}></div>
     </div>
   )

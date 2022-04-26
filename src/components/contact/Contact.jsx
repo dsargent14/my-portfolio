@@ -27,26 +27,31 @@ const handleSubmit = (e) => {
         <div className="c-bg"> </div>
         <div className="c-wrapper">
             <div className="c-left">
-                <h1 className="c-title">Lets disscus projects</h1>
+                <h1 className="c-title">Let's Discuss Projects</h1>
                 <div className="c-info">
                     <div className="c-info-item">
-                        <img src="" alt="" className="c-icon"/>
-                        +1 317-737-9349
+                        <h3  className="c-icon">
+                       Mobile : +13177379349
+                        </h3>
+                        </div>
+                        
+                        <div className="c-info-item">
+                        <h3  className="c-icon">
+                       Email: SargentDwight@yahoo.com
+                        </h3>
+                        <br/>
                         </div>
                         <div className="c-info-item">
-                        <img src="" alt="" className="c-icon"/>
-                        SargentDwight@yahoo.com
-                        </div>
-                        <div className="c-info-item">
-                        <img src="" alt="" className="c-icon"/>
-                        Inddianapolis,IN
+                        <h3  className="c-icon">
+                       Location : Indianapolis,IN USA
+                       </h3>
                         </div>
                     </div>
                 </div>
             <div className="c-right">
                  
                     <p className="c-desc">
-                    <b>put story here</b>
+                    <b>Contact Me</b> <br/>
                     Please reach out always looking to freelance and learn along the way 
                     </p>
                     <form ref={formRef} onSubmit ={handleSubmit}>

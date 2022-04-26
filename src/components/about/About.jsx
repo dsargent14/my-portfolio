@@ -12,17 +12,19 @@ const About = () => {
         <div className="a-right">
           <h1 className="a-title">About me</h1>
           <p className="a-sub">
-            Put your personal info here talk about what makes you reat
+            I am a Frontend UX/ UI Software Engineer proficient in most all front end technologies such as Javascript,CSS3, HTML5, Bootstrap, RestAPIs,
+            React.js, and many more.
             </p>
             <p className="a-desc">
-More details about you
+Feel free to check out my most recent projects, a few are shown below and upon clicking them you will be directed to my Github. 
             </p>
             <div className="a-award">
-<img src="" alt="30 min mark on vid" className="a-award-img"/>
+
 <div className="a-award-texts">
-<h4 className="a-award-title">certicatios here</h4>
+<h4 className="a-award-title">Education and Certifications</h4>
 <p className="a-award-desc">
-  tell where and when you received cert
+  I recieved my Associates Degree from College of the Siskiyous in Weed,California on May 2018 <br/>
+  I completed my Frontend Software Development Certification from Kenzie Academy in Indianapolis,IN on November 2021
   </p>
 </div>
             </div>
